@@ -16,7 +16,7 @@ Before starting the lab, ensure you have the following files in your working dir
 cd databases-101-lab
 
 # Start PostgreSQL and DuckDB containers in the background
-docker-compose up -d
+docker compose up -d
 
 # Verify containers are running (you should see postgresql_db and duckdb_cli containers)
 docker ps
